@@ -134,8 +134,8 @@ if __name__ == "__main__":
         alpha_array = np.append(alpha_array, alpha)
         variance_array = np.append(variance_array, E2-E**2)
 
-
-    
+        
+    # Plots
     plt.grid()
     if Elevel == 1:
         plt.title('HO first excited state energy')
